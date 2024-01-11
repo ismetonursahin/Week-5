@@ -61,6 +61,7 @@ public class NotebookMenu extends Menu {
                     notebook.getId(), notebook.getName(), notebook.getPrice(), notebook.getBrand(), notebook.getStorage(),
                     notebook.getScreenSize(), notebook.getRam(), notebook.getStockNum(), notebook.getDiscountRate());
         }
+        System.out.println("-------------------------------------------------------------------------------------");
     }
 
     public void deleteNotebook(ArrayList<Notebook> notebook) {
